@@ -16,8 +16,11 @@ Console.WriteLine("Введите пятый элемент массива: ");
 string fifthElement = Console.ReadLine();
 
 
-string[] array = new string[] {firstElement, secondElement, thirdElement, fourthElement, fifthElement};
+string[] array = new string[] { firstElement, secondElement, thirdElement, fourthElement, fifthElement};
 PrintArray(array);
+Console.Write(" -> ");
+string[] resultArray = CreateResultArray(array);
+PrintArray(resultArray);
 
 void PrintArray(string[] arr)
 {
@@ -30,3 +33,28 @@ void PrintArray(string[] arr)
     Console.WriteLine("]");
 }
 
+int CountOfElementWithThreeSymbols(string[] arr)
+{
+    int count = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i].Length <= 3) count++;
+    }
+    return count;
+}
+
+string[] CreateResultArray(string[] arr)
+{
+    int resultArrIndex = 0;
+    int resultArrLenght = CountOfElementWithThreeSymbols(arr);
+    string[] resultArr = new string[resultArrLenght];
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i].Length <= 3)
+            {
+                resultArr[resultArrIndex] = arr[i];
+                resultArrIndex++;
+            }
+    }
+    return resultArr;
+}
