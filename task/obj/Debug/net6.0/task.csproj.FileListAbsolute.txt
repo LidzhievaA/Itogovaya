@@ -1,0 +1,15 @@
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/bin/Debug/net6.0/task
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/bin/Debug/net6.0/task.deps.json
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/bin/Debug/net6.0/task.runtimeconfig.json
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/bin/Debug/net6.0/task.dll
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/bin/Debug/net6.0/task.pdb
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/obj/Debug/net6.0/task.csproj.AssemblyReference.cache
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/obj/Debug/net6.0/task.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/obj/Debug/net6.0/task.AssemblyInfoInputs.cache
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/obj/Debug/net6.0/task.AssemblyInfo.cs
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/obj/Debug/net6.0/task.csproj.CoreCompileInputs.cache
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/obj/Debug/net6.0/task.dll
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/obj/Debug/net6.0/refint/task.dll
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/obj/Debug/net6.0/task.pdb
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/obj/Debug/net6.0/task.genruntimeconfig.cache
+/Users/andzur/Desktop/Алсу/ГИК БРЕЙНС/Itogovaya/task/obj/Debug/net6.0/ref/task.dll
