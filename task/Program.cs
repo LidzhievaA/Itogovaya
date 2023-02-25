@@ -30,7 +30,7 @@ void PrintArray(string[] arr)
         if (i < arr.Length - 1) Console.Write(arr[i] + ",");
         else Console.Write(arr[i]);
     }
-    Console.WriteLine("]");
+    Console.Write("]");
 }
 
 int CountOfElementWithThreeSymbols(string[] arr)
@@ -45,15 +45,15 @@ int CountOfElementWithThreeSymbols(string[] arr)
 
 string[] CreateResultArray(string[] arr)
 {
-    int resultArrIndex = 0;
+    int resultArrElIndex = 0;
     int resultArrLenght = CountOfElementWithThreeSymbols(arr);
     string[] resultArr = new string[resultArrLenght];
     for (int i = 0; i < arr.Length; i++)
     {
         if (arr[i].Length <= 3)
             {
-                resultArr[resultArrIndex] = arr[i];
-                resultArrIndex++;
+                resultArr[resultArrElIndex] = arr[i];
+                resultArrElIndex++;
             }
     }
     return resultArr;
